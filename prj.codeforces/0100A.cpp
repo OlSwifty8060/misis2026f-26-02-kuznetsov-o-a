@@ -2,8 +2,6 @@
 #include <cstdlib>
 
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
     
     int n, k, n1;
     std::cin >> n >> k >> n1;
