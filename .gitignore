@@ -1,0 +1,10 @@
+build/
+.vscode/
+*.exe
+CMakeCache.txt
+CMakeFiles/
+*.ninja
+build/
+out/
+.vs/
+*.exe

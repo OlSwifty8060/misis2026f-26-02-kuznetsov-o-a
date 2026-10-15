@@ -1,0 +1,5 @@
+file(GLOB TASKS CONFIGURE_DEPENDS *.cpp)
+foreach(src ${TASKS})
+  get_filename_component(name ${src} NAME_WE)
+  add_executable(${name} ${src})
+endforeach()
