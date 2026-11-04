@@ -15,4 +15,4 @@ include_directories(prj.thirdparty prj.labs)
 
 add_subdirectory(prj.codeforces)
 add_subdirectory(prj.labs)
-# add_subdirectory(prj.test)
+add_subdirectory(prj.test)
