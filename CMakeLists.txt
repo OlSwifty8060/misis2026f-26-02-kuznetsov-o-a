@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+﻿cmake_minimum_required(VERSION 3.20)
 
 project(misis2026f-cpp)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -14,6 +14,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELWITHDEBINFO ${CMAKE_CURRENT_SOURCE_DIR}/bi
 include_directories(prj.thirdparty prj.labs)
 
 add_subdirectory(prj.codeforces)
-
- add_subdirectory(prj.labs)
+add_subdirectory(prj.labs)
 # add_subdirectory(prj.test)
