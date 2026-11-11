@@ -37,3 +37,4 @@ TEST_CASE("Rational compare") {
   CHECK(Rational(1, 2) < Rational(2, 3));
   CHECK(Rational(1, 2) == Rational(2, 4));
   CHECK(Rational(3, 4) > Rational(1, 2));
+}
