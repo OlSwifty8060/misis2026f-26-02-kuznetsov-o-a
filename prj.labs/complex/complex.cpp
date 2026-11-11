@@ -107,8 +107,6 @@ std::istream& Complex::read_from(std::istream& istrm) noexcept {
   return istrm;
 }
 
-// --- бинарные операторы ---
-
 Complex operator+(const Complex& lhs, const Complex& rhs) noexcept {
   return Complex(lhs) += rhs;
 }
