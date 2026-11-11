@@ -5,7 +5,7 @@ int main() {
     int t;
     std::cin >> t;
     
-    while (t--) {
+    while (t -= 1) {
         int a, b, c;
         std::cin >> a >> b >> c;
         int diff = std::abs(a - b);
